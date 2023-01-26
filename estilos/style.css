@@ -170,10 +170,16 @@ section#esqueci > div#imagem {
     height: 200px;
 }
 
-section#esqueci > div#formulario {
+
+section#esqueci > div#esquecisenha {
     display: block;
     padding: 10px;
 
+}
+
+div#esquecisenha > h1 {
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 div#esquecisenha > form > a {
