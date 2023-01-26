@@ -20,6 +20,23 @@
         float: right;
         width: 70%;
     }
+
+    /* Esqueci a Senha */
+    section#esqueci {
+        width: 80vw;
+        height: 280px;
+    }
+
+    section#esqueci > div#imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    
+    section#esqueci > div#formulario {
+        float: right;
+        width: 70%;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -44,6 +61,32 @@
     }
 
     div#formulario > p {
+        font-size: 1em;
+        margin: 20px 0px;
+    }
+
+    /* Esqueci a senha */
+    section#esqueci {
+        width: 950px;
+        height: 350px;
+    }
+
+    section#esqueci > div#imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+    
+    section#esqueci > div#esquecisenha {
+        float: left;
+        width: 50%;
+    }
+    
+    div#esquecisenha > h1 {
+        font-size: 2em;
+    }
+
+    div#esquecisenha > p {
         font-size: 1em;
         margin: 20px 0px;
     }
